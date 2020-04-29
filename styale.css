@@ -59,7 +59,7 @@ main .contaner{
 /* ################### close navagation ##################*/
 
 main .main_background{
-    background-image: url(./img/habibe.jpg);
+    background-image: url(habibe.jpg);
     background-size: cover;
     height: 110vh;
     display: flex;
