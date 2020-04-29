@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+nav{
+ background-color: gray;
+ overflow: hidden;
+ padding: 20px;
+}
+.logo{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.logo label{
+    color: rgb(221, 19, 96);
+    font-size: 20px;
+    font-weight: bold;
+}
+.list{
+    width: 65%;
+    float: right;
+    text-align: center;
+}
+.list li{
+    display: inline-block;
+    
+}
+.list a{
+    font-size: 17px;
+    color: #fff;
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #333;
+    border-radius: 5px 15px;
+}
+.list a:hover{
+    background-color: green;
+}
+.active{
+    background-color: green;
+}
+main .contaner{
+    width: 100%;
+    background: black;
+    display: inline-block;
+}
+.contaner .collpes{
+    width: 33%;
+    height: 200px;
+    float: left;
+    margin: 2px;
+    display: inline-block;
+    background-color: orange;
+}
+/* ################### close navagation ##################*/
+
+main .main_background{
+    background-image: url(./img/habibe.jpg);
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+/* about fill */
+.contant{
+    width: 100%;
+    overflow: hidden;
+
+}
+.collom{
+    width: 33%;
+    height: 350px;
+    float: left;
+    margin: 2px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    display: inline-block;
+    overflow: hidden;
+}
+.collom .img{
+    background-color: rgb(155, 139, 139);
+    margin-bottom: 2px;
+    height: 220px;
+}
+.collom .img img{
+    width: 180px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+.collom .datile{
+    margin: auto;
+    border-top: 1px solid #333;
+    height: 100px;
+    background-color: transparent;
+}
+.collom .datile p{
+    font-size: 12px;
+    text-align: justify;
+    
+}
+.collom ul li{
+    display: inline-block;
+    margin-right: 1px;
+
+}
+.collom ul{
+    margin-left: 10px;
+}
+.collom ul li i.fa{
+    color: red;
+}
+
+
+
+
+
+
+
+
